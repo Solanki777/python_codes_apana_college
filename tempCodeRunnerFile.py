@@ -1,3 +1,1 @@
-for el in range(1,101):
-#     print(el)
-   
+first creat demo.txt file than run this programs because i delete that file at last line of codes
