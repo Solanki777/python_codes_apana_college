@@ -30,19 +30,28 @@
 # print(car2.name)
 
 class student:
-    name=anonymmous  #class attribute
+
+    name="anonymmous"  #class attribute
     clgname="shantilal shah engineering college"
     # non parameterized constroctor
+
     def __init__(self):
         pass
     #  parameterized constructor
+
     def __init__(self, name,marks):
         self.name=name #object attribute which has higher priority than class attribute so it will print if some class attribute and object attribute name is same
         self.marks=marks
         print("addin new stdent data ...")
+    
+    def welcome(self):
+        print("welcome to Engineering college")
 
 s1=student("Mahesh",100)
 print(s1.name,s1.marks,s1.clgname)
 
 s2=student("Montu",100)
 print(s2.name,s2.marks)
+
+# constroctor method
+s2.welcome()
