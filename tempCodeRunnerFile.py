@@ -1,1 +1,1 @@
- # name=anonymmous  #class attribute
+print(s1)
