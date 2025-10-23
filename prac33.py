@@ -1,8 +1,16 @@
 class person():
     name="annoynomous"
 
-    def changename(self,name):
-        self.name=name
+    # def changename(self,name):
+    #     self.name=name
+    #     # self.__class__.name="Shardha khapra"
+    #     # it will chnge class variable
+    
+    # it also can access class varible 
+    @classmethod
+    def changename(cls,name):
+        cls.name=name
+
 
 p1=person()
 p1.changename("Shardha Khapra")
