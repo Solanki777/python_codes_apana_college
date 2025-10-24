@@ -1,0 +1,1 @@
+getter and setters are methods used to access and update the attributes of a class. They provide controlled 
