@@ -1,1 +1,1 @@
-print(p1.__birthdate)
+print(num1.__show__())
