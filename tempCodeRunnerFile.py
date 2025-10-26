@@ -1,1 +1,1 @@
-print(num1.__show__())
+print(t_string)
