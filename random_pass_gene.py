@@ -20,9 +20,12 @@ t_length=8
 #     passw += random.choice(t_string)
 
 # to get in list formate
-res=[random.choice(t_string) for i in range(t_length)]
-print(res)
+# res=[random.choice(t_string) for i in range(t_length)]
+# print(res)
+# ['c', '\\', ',', 's', ',', '"', ']', 'D']
 
+res="".join([random.choice(t_string) for i in range(t_length)])
+print(res)
 # print("your password is ",passw)
 
 
